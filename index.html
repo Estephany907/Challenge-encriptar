@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+        <img class="presentacion__alura" src="a.png" alt="alura" id="alura">
+    <div class="encriptar">
+            <textarea
+              name="texto" 
+              class="texto" 
+              id="texto" 
+              cols="30" 
+              rows="10"
+              placeholder="Ingrese el texto aqui"
+            ></textarea>
+        <div class="terminos">
+          <p>Solo letras minúsculas y sin acentos</p>
+        </div>
+        <div class="botones">
+            <button class="encriptacion" type="button" onclick="encriptar()">
+              Encriptar!
+            </button>
+            <button class="encriptacion" type="button" onclick="desencriptar()">
+             Desencriptar!
+            </button>
+        </div>
+    </div>  
+    <div class="encriptado" id="msj">
+      <img src="encriptar.png" alt="candado" id="candado">
+        <div class="mensajeEncriptado" id="mensajeEncriptado">
+          <h2 id="tiulo__Mensaje">Ningún mensaje fue encontrado</h2> 
+          <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+        </div>
+    
+    </div>
+  </div>
+    <footer class="footer">
+    <p>Desarrollado por Estephany del Valle</p>
+  </footer>
+</body>  
+    <script src="app.js"></script>         
+</html>
